@@ -1,0 +1,11 @@
+{
+  "name": "brainfuck-interpreter-js",
+  "version": "0.0.1",
+  "description": "A toy Brainfuck interpreter implemented in JavaScript",
+  "main": "bf.js",
+  "scripts": {
+    "test": "node bf.cjs hello-world.bf"
+  },
+  "author": "anson2251",
+  "license": "MIT"
+}
