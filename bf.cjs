@@ -7,12 +7,13 @@ let verbose = false;
 
 const description = "A toy BrainFuck interpreter implemented in JavaScript.";
 const usage = `
-Usage: node ${process.argv[1].replace("\\", "/").split("/").pop()} [-h] [-v] [<file.bf> or -c <code>]
+Usage: node ${process.argv[1].replace("\\", "/").split("/").pop()} [-h | --help] [-v] [-m <size>] [<file.bf> | [-c <code>]]
 
 Options:
   -h, --help  Print this help message (ignore other options)
   -v          Enable verbose mode
   -m <size>   Set memory size (default: ${MEM_SIZE})
+  -c <code>   Run the Brainfuck code from a string
 `.trim();
 
 const args = process.argv.slice(2);
