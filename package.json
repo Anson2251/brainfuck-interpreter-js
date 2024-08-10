@@ -2,7 +2,7 @@
   "name": "brainfuck-interpreter-js",
   "version": "0.0.1",
   "description": "A toy Brainfuck interpreter implemented in JavaScript",
-  "main": "bf.js",
+  "main": "bf.cjs",
   "scripts": {
     "test": "node bf.cjs hello-world.bf"
   },
