@@ -40,7 +40,7 @@ node bf.cjs [-h] [-v] [<file.bf> or -c <code>]
 ## Project Structure
 
 * `bf.cjs`: The Brainfuck interpreter implementation.
-* `hello-world.bf`: An example Brainfuck program, obtained from [wikipedia](https://en.wikipedia.org/wiki/Brainfuck).
+* `hello-world.bf`: An example Brainfuck program, obtained from [Wikipedia](https://en.wikipedia.org/wiki/Brainfuck).
 * `README.md`: This file.
 
 ---
