@@ -12,7 +12,7 @@ This is a toy project that brings a JavaScript implementation of the Brainfuck i
 To run the interpreter, use the following command:
 
 ```
-node bf.cjs node bf.cjs [-h | --help] [-v] [-m <size>] [<file.bf> | [-c <code>]]
+node bf.cjs [-h | --help] [-v] [-m <size>] [<file.bf> | [-c <code>]]
 ```
 
 ### Options
